@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div id="top-image">
+  <div id="content" class="container center-block">
+    <div class="jumbotron">
+      <div class="container">
+        <h1 style="text-align:center"><a style="color: #FFFFFF ; text-decoration:none;" href="https://www.google.com">Google</a></h1>
+        <p>
+        <h4 style="text-align:center"><script type="text/javascript" style="text-align:center" src="https://api.guoch.xyz/?code=js&amp;charset=utf-8"></script>
+          <script>saying()</script></h4>
+        </p>
+        <form action="https://www.google.com/search?" method="get">
+        <div class="input-group input-group-lg"> <span class="input-group-addon" id="sizing-addon1"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span></span>
+          <input type="text" name="q" id="imput-1" class="form-control" placeholder="输入关键词" aria-describedby="sizing-addon1">
+          <span class="input-group-btn">
+          <button class="btn btn-default" type="submit" formaction="https://www.google.com/search" name="ie" value="UTF-8">搜 索</button></form>
+          </span> </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/ios-parallax.js"></script> 
+<script type="text/javascript">
+$("#imput-1").focus();
+$(document).ready(function() {
+  $('#top-image').iosParallax({
+	movementFactor: 50
+  });
+});
+</script>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div>
+</body>
+</html>
